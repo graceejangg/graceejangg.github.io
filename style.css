@@ -1,0 +1,87 @@
+img {
+    clip-path: circle();
+    padding: 0px;
+}
+
+.format{
+    padding: 0px;
+    flex-basis: 20rem;
+    text-align: center;       
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+p.singer{
+    font-size:20px
+}
+
+p.rickname{
+    font-family: serif;
+    font-size: 25px
+}
+
+p.em{
+    font-family: serif;
+    font-size: 15px;
+    color: purple;
+}
+
+
+p.up{
+    font-size: 45px;
+    font-family: serif;
+}
+
+.cred{
+    color: grey;
+}
+
+.sec1 {
+    border-left: 1px solid rgb(196,189,289);
+    padding-left: 1em;
+    flex-basis: 40rem;
+}
+progress {
+    accent-color: blue;
+    text-align: top;
+}
+
+.skillalign{
+    text-align: top;
+}
+
+
+.menubar {
+    border-style: solid hidden hidden hidden;
+    padding: 15px;
+    color: purple;
+    text-align: center;  
+}
+div.menubar a.nonsel {
+    margin: 25px;
+    color: grey;
+    text-decoration:none;
+}
+
+.linkcol{
+    color: purple;
+    text-decoration:none;
+}
+
+div.menubar a.selected {
+    color: purple;
+    margin: 25px;
+}
+
+#cb {
+    accent-color: blue;
+}
+
+@media only screen and (max-width:800px){
+    .all {
+        flex-direction:column;
+    }
+}
